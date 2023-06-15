@@ -1,3 +1,8 @@
+# 샤딩
+- 샤딩은 데이터를 샤드라는 딘위로 여러 데이터 베이스 인스턴스에 나누어서 관리
+- 데이터는 샤드의 숫자만큼 분류하여 저장됨 -> 샤딩 분류 기준에 따라 데이터를 균등하게 분해. -> 스케일업 한계까 있는 데이터베이스를 스케일 아웃 할 수 있음.
+- 
+
 # Spring Boot Dev Tools는 로컬환경에서 애플리케이션 실행하고 개발할때 필요한  Maven의 scope 설정을 반드시 runtime으로 강제.
 # Spring Configuration Processor
 - Spring Configuration Processor는 자바 애너테이션 프로세서로 @ConfigurationProperties나 애너테이션 분석하여 메타데이터 생성
@@ -400,6 +405,43 @@ public interface ApplicationContext extends
 
 ### cf) 자바에서 Long 타입 값을 마셜링할 땐 문자열로
 - 자바스크립트 32비트 정수 -> 자바 Long이 64비트이므로 오버플로우 될수가 있음
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # 스프링 이벤트
 - 애플리케이션 내부에서 이벤트를 게시하고 구독할 목적으로 사용
